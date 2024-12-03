@@ -1,0 +1,37 @@
+1.simple missing values or null value
+
+2.calculate no of tags per post
+
+3.Identify the top users with the highest rates on their post an rank them
+
+4.get the list of user who have never liked any post
+
+5.Rank user based on their enguements(for ex like ,share, comment)
+ak question missing hai
+
+6. 
+
+Sales_id
+cust_id
+Prod_id
+Store_id
+Date
+Sales_Amount
+Ravi Kumar
+7:54 PM
+create table prim_01 (p1_id int primary key,name varchar(20))
+create table prim_02 (p2_id int primary key,name varchar(20))
+create table prim_03 (p3_id int primary key,name varchar(20))
+create table prim_04 (p4_id int primary key,name varchar(20))
+create table prim_05 (p5_id int primary key,name varchar(20))
+
+create table prim_06 (p6_id int primary key,name varchar(20))
+create table prim_07 (p7_id int primary key,name varchar(20))
+create table prim_08 (p8_id int primary key,name varchar(20))
+cre
+Ravi Kumar
+7:55 PM
+create table F_1(F_id int,dept varchar(20),P1_id int foreign key references prim_01(id),P2_id foreign key references prim_02(id),P3_id foreign key references prim_03(id),P4_id foreign key references prim_04(id),P5_id foreign key references prim_05(id))
+
+
+create table F_2(F_id int,dept varchar(20),P6_id int foreign key references prim_06(id),P7_id foreign key references prim_07(id),P8_id foreign key references prim_08(id),P4_id foreign key references prim_04(id),P5_id foreign key references prim_
